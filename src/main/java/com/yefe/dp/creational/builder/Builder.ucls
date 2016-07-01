@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="com.yefe.dp.creational.builder.BuilderPatternDemo" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/builder/BuilderPatternDemo.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position x="236" y="175" width="139" height="99"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.yefe.dp.creational.builder.ColdDrink" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/builder/ColdDrink.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="612" y="175" width="137" height="99"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.yefe.dp.creational.builder.Meal" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/builder/Meal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="789" y="175" width="137" height="135"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.yefe.dp.creational.builder.Pepsi" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/builder/Pepsi.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="435" y="350" width="137" height="117"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.yefe.dp.creational.builder.MealBuilder" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/builder/MealBuilder.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="415" y="175" width="157" height="117"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.yefe.dp.creational.builder.Coke" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/builder/Coke.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="612" y="350" width="137" height="117"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="com.yefe.dp.creational.builder.Packing" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/builder/Packing.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="966" y="350" width="137" height="81"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="com.yefe.dp.creational.builder.Wrapper" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/builder/Wrapper.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="966" y="175" width="137" height="99"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.yefe.dp.creational.builder.VegBurger" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/builder/VegBurger.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="1143" y="350" width="137" height="117"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.yefe.dp.creational.builder.Burger" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/builder/Burger.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="1320" y="175" width="137" height="99"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.yefe.dp.creational.builder.Bottle" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/builder/Bottle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="1143" y="175" width="137" height="99"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.yefe.dp.creational.builder.ChickenBurger" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/builder/ChickenBurger.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="1320" y="350" width="137" height="117"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="13" language="java" name="com.yefe.dp.creational.builder.Item" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/builder/Item.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="789" y="350" width="137" height="117"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <realization id="14">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <association id="15">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="16" name="items"/>      
+      <multiplicity id="17" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="18">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="19">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <generalization id="20">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <generalization id="21">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <realization id="22">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <realization id="23">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <realization id="24">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

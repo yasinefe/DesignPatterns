@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="com.yefe.dp.creational.abstractfactory.AbstractFactoryPatternDemo" 
+    project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/abstractfactory/AbstractFactoryPatternDemo.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position x="116" y="108" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.yefe.dp.creational.abstractfactory.FactoryProducer" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/abstractfactory/FactoryProducer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position x="363" y="106" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="3" language="java" name="com.yefe.dp.creational.abstractfactory.FactoryType" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/abstractfactory/FactoryType.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position x="146" y="277" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="4" language="java" name="com.yefe.dp.creational.abstractfactory.ColorFactory" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/abstractfactory/ColorFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position x="254" y="466" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" language="java" name="com.yefe.dp.creational.abstractfactory.Shape" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/abstractfactory/Shape.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="1095" y="272" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" language="java" name="com.yefe.dp.creational.abstractfactory.Circle" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/abstractfactory/Circle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="880" y="106" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="com.yefe.dp.creational.abstractfactory.Color" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/abstractfactory/Color.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="1099" y="566" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="com.yefe.dp.creational.abstractfactory.ShapeFactory" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/abstractfactory/ShapeFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position x="466" y="466" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.yefe.dp.creational.abstractfactory.Rectangle" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/abstractfactory/Rectangle.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position x="1095" y="106" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.yefe.dp.creational.abstractfactory.AbstractFactory" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/abstractfactory/AbstractFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position x="365" y="281" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.yefe.dp.creational.abstractfactory.Red" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/abstractfactory/Red.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="884" y="400" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.yefe.dp.creational.abstractfactory.Green" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/abstractfactory/Green.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="1099" y="400" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.yefe.dp.creational.abstractfactory.Blue" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/abstractfactory/Blue.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="1314" y="400" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="14" language="java" name="com.yefe.dp.creational.abstractfactory.ColorType" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/abstractfactory/ColorType.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position x="693" y="404" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="15" language="java" name="com.yefe.dp.creational.abstractfactory.Square" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/abstractfactory/Square.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="1310" y="106" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="16" language="java" name="com.yefe.dp.creational.abstractfactory.ShapeType" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/creational/abstractfactory/ShapeType.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position x="663" y="116" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <dependency id="17">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <generalization id="18">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <realization id="19">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <dependency id="20">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="21">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="22">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="23">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="24">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="25">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <realization id="26">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <dependency id="27">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="28">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <realization id="29">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="30">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <dependency id="31">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <generalization id="32">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <realization id="33">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <dependency id="34">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <realization id="35">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

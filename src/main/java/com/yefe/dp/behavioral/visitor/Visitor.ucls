@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="com.yefe.dp.behavioral.visitor.Monitor" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/behavioral/visitor/Monitor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="125" y="78" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.yefe.dp.behavioral.visitor.Computer" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/behavioral/visitor/Computer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="351" y="78" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.yefe.dp.behavioral.visitor.VisitorPatternDemo" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/behavioral/visitor/VisitorPatternDemo.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position x="1005" y="78" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.yefe.dp.behavioral.visitor.Mouse" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/behavioral/visitor/Mouse.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="577" y="78" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" language="java" name="com.yefe.dp.behavioral.visitor.ComputerPartVisitor" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/behavioral/visitor/ComputerPartVisitor.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position x="1185" y="289" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" language="java" name="com.yefe.dp.behavioral.visitor.Keyboard" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/behavioral/visitor/Keyboard.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="803" y="78" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.yefe.dp.behavioral.visitor.ComputerPartDisplayVisitor" 
+    project="DesignPatterns" file="/DesignPatterns/src/com/yefe/dp/behavioral/visitor/ComputerPartDisplayVisitor.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position x="1206" y="105" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="8" language="java" name="com.yefe.dp.behavioral.visitor.ComputerPart" project="DesignPatterns" 
+    file="/DesignPatterns/src/com/yefe/dp/behavioral/visitor/ComputerPart.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="351" y="262" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <realization id="9">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <realization id="10">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="11">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <realization id="12">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <realization id="13">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <association id="14">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="15" name="parts"/>      
+      <multiplicity id="16" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
